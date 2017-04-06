@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perhotelan Data="Pengunjung" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="perhotelan.xsd">
+	
+	<nama>M. Amran Hakim Siregar</nama>
+	<jenis identitas="ktp">
+		<no_id>01287767687766</no_id>
+	</jenis>
+	<ttl>Tanjung Morawa, 10 july 1997</ttl>
+	<agama>Islam</agama>
+	<country>Indonesia</country>
+	<jumlah>2</jumlah>
+	<goldarah>A</goldarah>
+	<jeniskelamin>Laki - laki</jeniskelamin>
+	<alamat>Jl. Sarijadi block 8 Kota Bandung</alamat>
+	<no_hp>0822978678</no_hp>
+	<tgl_checkin>21 Maret 2017</tgl_checkin>
+	<email>amranhakim9@gmail.com</email>
+	<nomor kamar="201">
+		<nama_hotel>Citra Garden Hotel</nama_hotel>
+	</nomor>
+	
+	
+	<nama>Steven Alba</nama>
+	<jenis identitas="pasport">
+		<no_id>098SZ098ZSC</no_id>
+	</jenis>
+	<ttl>Melbround, 1 january 1975</ttl>
+	<agama>Cristiany</agama>
+	<country>Australia</country>
+	<jumlah>2</jumlah>
+	<goldarah>AB</goldarah>
+	<jeniskelamin>Laki - laki</jeniskelamin>
+	<alamat>Melbround Australia</alamat>
+	<no_hp>0898232838</no_hp>
+	<tgl_checkin>24 Maret 2017</tgl_checkin>
+	<email>stevenalba@yahoo.com</email>
+	<nomor kamar="229">
+		<nama_hotel>Citra Garden Hotel</nama_hotel>
+	</nomor>
+	
+	<nama>Yusuf Admaji</nama>
+	<jenis identitas="ktp">
+		<no_id>2089779776686</no_id>
+	</jenis>
+	<ttl>Malang, 20 mei 1985</ttl>
+	<agama>Islam</agama>
+	<country>Indonesia</country>
+	<jumlah>1</jumlah>
+	<goldarah>O</goldarah>
+	<jeniskelamin>Laki - laki</jeniskelamin>
+	<alamat>Malang indonesia</alamat>
+	<no_hp>08878779798</no_hp>
+	<tgl_checkin>27 Maret 2017</tgl_checkin>
+	<email>yusufadmaji@yahoo.com</email>
+	<nomor kamar="309">
+		<nama_hotel>Citra Garden Hotel</nama_hotel>
+	</nomor>
+	
+	<nama>Cantika Ayunda</nama>
+	<jenis identitas="ktp">
+		<no_id>2090823989</no_id>
+	</jenis>
+	<ttl>Bandung, 20 April 1989</ttl>
+	<agama>Islam</agama>
+	<country>Indonesia</country>
+	<jumlah>1</jumlah>
+	<goldarah>A</goldarah>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Bandung indonesia</alamat>
+	<no_hp>0812298989</no_hp>
+	<tgl_checkin>29 Maret 2017</tgl_checkin>
+	<email>cantika87@yahoo.com</email>
+	<nomor kamar="467">
+		<nama_hotel>Citra Garden Hotel</nama_hotel>
+	</nomor>
+	
+	<nama>Angelia</nama>
+	<jenis identitas="ktp">
+		<no_id>20192018298298</no_id>
+	</jenis>
+	<ttl>Bandung, 2 Mei 1990</ttl>
+	<agama>Islam</agama>
+	<country>Indonesia</country>
+	<jumlah>1</jumlah>
+	<goldarah>O</goldarah>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Bandung indonesia</alamat>
+	<no_hp>0854547</no_hp>
+	<tgl_checkin>30 Maret 2017</tgl_checkin>
+	<email>angelia@yahoo.com</email>
+	<nomor kamar="456">
+		<nama_hotel>Citra Garden Hotel</nama_hotel>
+	</nomor>
+	
+</perhotelan>

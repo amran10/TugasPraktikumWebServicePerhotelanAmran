@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="perhotelan">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="agama"/>
+                <xs:element ref="alamat"/>
+                <xs:element ref="country"/>
+                <xs:element ref="email"/>
+                <xs:element ref="goldarah"/>
+                <xs:element ref="jenis"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="jumlah"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="no_hp"/>
+                <xs:element ref="nomor"/>
+                <xs:element ref="tgl_checkin"/>
+                <xs:element ref="ttl"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="agama" type="xs:NCName"/>
+    <xs:element name="alamat" type="xs:string"/>
+    <xs:element name="country" type="xs:NCName"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="goldarah" type="xs:NCName"/>
+    <xs:element name="jenis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="no_id"/>
+            </xs:sequence>
+            <xs:attribute name="identitas" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="no_id" type="xs:NMTOKEN"/>
+    <xs:element name="jeniskelamin" type="xs:string"/>
+    <xs:element name="jumlah" type="xs:integer"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="no_hp" type="xs:integer"/>
+    <xs:element name="nomor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama_hotel"/>
+            </xs:sequence>
+            <xs:attribute name="kamar" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama_hotel" type="xs:string"/>
+    <xs:element name="tgl_checkin" type="xs:string"/>
+    <xs:element name="ttl" type="xs:string"/>
+</xs:schema>
